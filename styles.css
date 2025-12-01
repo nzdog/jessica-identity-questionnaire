@@ -199,8 +199,8 @@ p {
     flex-shrink: 0;
     width: 18px;
     height: 18px;
-    accent-color: rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
+    accent-color: rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
 }
 
 /* ------------------------------
