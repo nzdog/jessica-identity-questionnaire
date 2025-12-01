@@ -341,9 +341,48 @@ input::placeholder {
     font-weight: 500;
 }
 
-/* Hide progress bar on smaller screens */
+/* Mobile progress bar */
 @media (max-width: 768px) {
     .progress-container {
-        display: none;
+        position: sticky;
+        top: 0;
+        right: 0;
+        left: 0;
+        transform: none;
+        z-index: 1000;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .progress-content {
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(220,220,220,0.5);
+        padding: 0.75rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        min-width: auto;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .progress-text {
+        font-size: 1rem;
+        margin-bottom: 0;
+        flex-shrink: 0;
+    }
+
+    .progress-bar-bg {
+        flex: 1;
+        margin-bottom: 0;
+        height: 6px;
+    }
+
+    .progress-label {
+        font-size: 0.7rem;
+        flex-shrink: 0;
+        white-space: nowrap;
     }
 }
