@@ -43,8 +43,9 @@ body {
     position: absolute;
     top: 2rem;
     right: 2rem;
-    width: 150px;
-    height: auto;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .logo-rotating {
