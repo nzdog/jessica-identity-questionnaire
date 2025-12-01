@@ -38,6 +38,7 @@
         <div class="intro-card card">
             <h1>jessica questionnaire</h1>
             <p>this questionnaire helps you reconnect with who you are. there are no right or wrong answers — just what feels true for you.</p>
+            <p><strong>note:</strong> you can select as many options as you want for each question. choose everything that resonates with you.</p>
         </div>
 
         <form name="jessica-questionnaire" method="POST" data-netlify="true" action="/success.html">
@@ -50,17 +51,17 @@
                 <h3>1. which of these feels closest to your natural energy?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> your natural energy gives a starting point for understanding how you move through the world.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q1_1" value="calm"> calm</label>
-                    <label><input type="radio" name="q1_1" value="lively"> lively</label>
-                    <label><input type="radio" name="q1_1" value="quiet"> quiet</label>
-                    <label><input type="radio" name="q1_1" value="steady"> steady</label>
-                    <label><input type="radio" name="q1_1" value="observant"> observant</label>
-                    <label><input type="radio" name="q1_1" value="sharp"> sharp</label>
-                    <label><input type="radio" name="q1_1" value="light"> light</label>
-                    <label><input type="radio" name="q1_1" value="serious"> serious</label>
-                    <label><input type="radio" name="q1_1" value="mixed"> mixed / depends on the day</label>
+                    <label><input type="checkbox" name="q1_1" value="calm"> calm</label>
+                    <label><input type="checkbox" name="q1_1" value="lively"> lively</label>
+                    <label><input type="checkbox" name="q1_1" value="quiet"> quiet</label>
+                    <label><input type="checkbox" name="q1_1" value="steady"> steady</label>
+                    <label><input type="checkbox" name="q1_1" value="observant"> observant</label>
+                    <label><input type="checkbox" name="q1_1" value="sharp"> sharp</label>
+                    <label><input type="checkbox" name="q1_1" value="light"> light</label>
+                    <label><input type="checkbox" name="q1_1" value="serious"> serious</label>
+                    <label><input type="checkbox" name="q1_1" value="mixed"> mixed / depends on the day</label>
                     <label class="other-option">
-                        <input type="radio" name="q1_1" value="other"> something else:
+                        <input type="checkbox" name="q1_1" value="other"> something else:
                         <input type="text" name="q1_1_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -70,12 +71,12 @@
                 <h3>2. which pace feels most like you?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> knowing the pace that fits you helps you move in a way that feels right for you.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q1_2" value="fast"> fast — i move quickly when i decide something</label>
-                    <label><input type="radio" name="q1_2" value="slow"> slow — i take my time</label>
-                    <label><input type="radio" name="q1_2" value="steady"> steady — somewhere in the middle</label>
-                    <label><input type="radio" name="q1_2" value="changing"> changing — depends on what's going on</label>
+                    <label><input type="checkbox" name="q1_2" value="fast"> fast — i move quickly when i decide something</label>
+                    <label><input type="checkbox" name="q1_2" value="slow"> slow — i take my time</label>
+                    <label><input type="checkbox" name="q1_2" value="steady"> steady — somewhere in the middle</label>
+                    <label><input type="checkbox" name="q1_2" value="changing"> changing — depends on what's going on</label>
                     <label class="other-option">
-                        <input type="radio" name="q1_2" value="other"> something else:
+                        <input type="checkbox" name="q1_2" value="other"> something else:
                         <input type="text" name="q1_2_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -85,16 +86,16 @@
                 <h3>3. when you feel most like yourself, what is one small thing you tend to do?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> identity often shows up in small behaviours. noticing even one helps reconnect you with your own pattern.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q1_3" value="speak_freely"> speak more freely</label>
-                    <label><input type="radio" name="q1_3" value="think_clearly"> think more clearly</label>
-                    <label><input type="radio" name="q1_3" value="joke_around"> joke around more</label>
-                    <label><input type="radio" name="q1_3" value="keep_to_myself"> keep to myself comfortably</label>
-                    <label><input type="radio" name="q1_3" value="get_things_done"> get things done</label>
-                    <label><input type="radio" name="q1_3" value="notice_more"> notice more around me</label>
-                    <label><input type="radio" name="q1_3" value="stay_calm"> stay calm</label>
-                    <label><input type="radio" name="q1_3" value="express_myself"> express myself more easily</label>
+                    <label><input type="checkbox" name="q1_3" value="speak_freely"> speak more freely</label>
+                    <label><input type="checkbox" name="q1_3" value="think_clearly"> think more clearly</label>
+                    <label><input type="checkbox" name="q1_3" value="joke_around"> joke around more</label>
+                    <label><input type="checkbox" name="q1_3" value="keep_to_myself"> keep to myself comfortably</label>
+                    <label><input type="checkbox" name="q1_3" value="get_things_done"> get things done</label>
+                    <label><input type="checkbox" name="q1_3" value="notice_more"> notice more around me</label>
+                    <label><input type="checkbox" name="q1_3" value="stay_calm"> stay calm</label>
+                    <label><input type="checkbox" name="q1_3" value="express_myself"> express myself more easily</label>
                     <label class="other-option">
-                        <input type="radio" name="q1_3" value="other"> something else:
+                        <input type="checkbox" name="q1_3" value="other"> something else:
                         <input type="text" name="q1_3_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -104,16 +105,16 @@
                 <h3>4. which environments feel closest to "you"?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> the places where you feel most yourself can help guide what supports you.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q1_4" value="quiet_spaces"> quiet spaces</label>
-                    <label><input type="radio" name="q1_4" value="outdoors"> being outdoors</label>
-                    <label><input type="radio" name="q1_4" value="one_or_two_people"> being around one or two people you like</label>
-                    <label><input type="radio" name="q1_4" value="on_your_own"> being on your own</label>
-                    <label><input type="radio" name="q1_4" value="busy"> busy environments</label>
-                    <label><input type="radio" name="q1_4" value="creative"> creative spaces</label>
-                    <label><input type="radio" name="q1_4" value="familiar"> familiar places</label>
-                    <label><input type="radio" name="q1_4" value="no_pressure"> spaces with no pressure</label>
+                    <label><input type="checkbox" name="q1_4" value="quiet_spaces"> quiet spaces</label>
+                    <label><input type="checkbox" name="q1_4" value="outdoors"> being outdoors</label>
+                    <label><input type="checkbox" name="q1_4" value="one_or_two_people"> being around one or two people you like</label>
+                    <label><input type="checkbox" name="q1_4" value="on_your_own"> being on your own</label>
+                    <label><input type="checkbox" name="q1_4" value="busy"> busy environments</label>
+                    <label><input type="checkbox" name="q1_4" value="creative"> creative spaces</label>
+                    <label><input type="checkbox" name="q1_4" value="familiar"> familiar places</label>
+                    <label><input type="checkbox" name="q1_4" value="no_pressure"> spaces with no pressure</label>
                     <label class="other-option">
-                        <input type="radio" name="q1_4" value="other"> something else:
+                        <input type="checkbox" name="q1_4" value="other"> something else:
                         <input type="text" name="q1_4_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -123,18 +124,24 @@
                 <h3>5. what kind of interactions feel most natural to you?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> how you naturally interact with others is part of your core self.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q1_5" value="straightforward"> straightforward conversation</label>
-                    <label><input type="radio" name="q1_5" value="humour"> humour or jokes</label>
-                    <label><input type="radio" name="q1_5" value="short_checkins"> short check-ins</label>
-                    <label><input type="radio" name="q1_5" value="deep_talk"> deep talk with one person</label>
-                    <label><input type="radio" name="q1_5" value="activities"> doing activities together instead of talking</label>
-                    <label><input type="radio" name="q1_5" value="messaging"> messaging instead of face-to-face</label>
-                    <label><input type="radio" name="q1_5" value="being_together"> being with someone without needing to talk</label>
+                    <label><input type="checkbox" name="q1_5" value="straightforward"> straightforward conversation</label>
+                    <label><input type="checkbox" name="q1_5" value="humour"> humour or jokes</label>
+                    <label><input type="checkbox" name="q1_5" value="short_checkins"> short check-ins</label>
+                    <label><input type="checkbox" name="q1_5" value="deep_talk"> deep talk with one person</label>
+                    <label><input type="checkbox" name="q1_5" value="activities"> doing activities together instead of talking</label>
+                    <label><input type="checkbox" name="q1_5" value="messaging"> messaging instead of face-to-face</label>
+                    <label><input type="checkbox" name="q1_5" value="being_together"> being with someone without needing to talk</label>
                     <label class="other-option">
-                        <input type="radio" name="q1_5" value="other"> something else:
+                        <input type="checkbox" name="q1_5" value="other"> something else:
                         <input type="text" name="q1_5_other" placeholder="please specify...">
                     </label>
                 </div>
+            </div>
+
+            <div class="card question-card">
+                <h3>anything else about this section?</h3>
+                <p class="why-matters">share any other thoughts relevant to your sense of yourself.</p>
+                <textarea name="section1_notes" rows="4" placeholder="optional - add any additional thoughts here..."></textarea>
             </div>
 
             <!-- SECTION 2 -->
@@ -144,15 +151,15 @@
                 <h3>1. what kind of people are easiest for you to be around?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> the people you're at ease with help reflect the kind of environment that fits you.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q2_1" value="calm"> calm people</label>
-                    <label><input type="radio" name="q2_1" value="honest"> honest people</label>
-                    <label><input type="radio" name="q2_1" value="quiet"> quiet people</label>
-                    <label><input type="radio" name="q2_1" value="let_you_be"> people who let you be yourself</label>
-                    <label><input type="radio" name="q2_1" value="dont_push"> people who don't push</label>
-                    <label><input type="radio" name="q2_1" value="make_laugh"> people who make you laugh</label>
-                    <label><input type="radio" name="q2_1" value="dont_take_personally"> people who don't take things personally</label>
+                    <label><input type="checkbox" name="q2_1" value="calm"> calm people</label>
+                    <label><input type="checkbox" name="q2_1" value="honest"> honest people</label>
+                    <label><input type="checkbox" name="q2_1" value="quiet"> quiet people</label>
+                    <label><input type="checkbox" name="q2_1" value="let_you_be"> people who let you be yourself</label>
+                    <label><input type="checkbox" name="q2_1" value="dont_push"> people who don't push</label>
+                    <label><input type="checkbox" name="q2_1" value="make_laugh"> people who make you laugh</label>
+                    <label><input type="checkbox" name="q2_1" value="dont_take_personally"> people who don't take things personally</label>
                     <label class="other-option">
-                        <input type="radio" name="q2_1" value="other"> something else:
+                        <input type="checkbox" name="q2_1" value="other"> something else:
                         <input type="text" name="q2_1_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -162,15 +169,15 @@
                 <h3>2. what behaviours in others irritate you the most?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> what irritates you often points to what doesn't belong in your world.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q2_2" value="bossiness"> bossiness</label>
-                    <label><input type="radio" name="q2_2" value="drama"> drama</label>
-                    <label><input type="radio" name="q2_2" value="fake"> being fake</label>
-                    <label><input type="radio" name="q2_2" value="talking_too_much"> talking too much</label>
-                    <label><input type="radio" name="q2_2" value="superior"> acting superior</label>
-                    <label><input type="radio" name="q2_2" value="judgemental"> being judgemental</label>
-                    <label><input type="radio" name="q2_2" value="clinginess"> clinginess</label>
+                    <label><input type="checkbox" name="q2_2" value="bossiness"> bossiness</label>
+                    <label><input type="checkbox" name="q2_2" value="drama"> drama</label>
+                    <label><input type="checkbox" name="q2_2" value="fake"> being fake</label>
+                    <label><input type="checkbox" name="q2_2" value="talking_too_much"> talking too much</label>
+                    <label><input type="checkbox" name="q2_2" value="superior"> acting superior</label>
+                    <label><input type="checkbox" name="q2_2" value="judgemental"> being judgemental</label>
+                    <label><input type="checkbox" name="q2_2" value="clinginess"> clinginess</label>
                     <label class="other-option">
-                        <input type="radio" name="q2_2" value="other"> something else:
+                        <input type="checkbox" name="q2_2" value="other"> something else:
                         <input type="text" name="q2_2_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -180,15 +187,15 @@
                 <h3>3. when you've had enough of people, what do you usually do?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> everyone has a natural way to reset. seeing yours makes it easier to protect your space.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q2_3" value="go_quiet"> go quiet</label>
-                    <label><input type="radio" name="q2_3" value="room"> go to your room</label>
-                    <label><input type="radio" name="q2_3" value="headphones"> put headphones on</label>
-                    <label><input type="radio" name="q2_3" value="outside"> go outside</label>
-                    <label><input type="radio" name="q2_3" value="phone"> scroll on your phone</label>
-                    <label><input type="radio" name="q2_3" value="distract"> distract yourself</label>
-                    <label><input type="radio" name="q2_3" value="leave"> leave the space</label>
+                    <label><input type="checkbox" name="q2_3" value="go_quiet"> go quiet</label>
+                    <label><input type="checkbox" name="q2_3" value="room"> go to your room</label>
+                    <label><input type="checkbox" name="q2_3" value="headphones"> put headphones on</label>
+                    <label><input type="checkbox" name="q2_3" value="outside"> go outside</label>
+                    <label><input type="checkbox" name="q2_3" value="phone"> scroll on your phone</label>
+                    <label><input type="checkbox" name="q2_3" value="distract"> distract yourself</label>
+                    <label><input type="checkbox" name="q2_3" value="leave"> leave the space</label>
                     <label class="other-option">
-                        <input type="radio" name="q2_3" value="other"> something else:
+                        <input type="checkbox" name="q2_3" value="other"> something else:
                         <input type="text" name="q2_3_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -198,17 +205,23 @@
                 <h3>4. what's your communication style when you're being real?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> recognising your natural style helps you communicate in a way that feels authentic.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q2_4" value="direct"> direct</label>
-                    <label><input type="radio" name="q2_4" value="brief"> brief</label>
-                    <label><input type="radio" name="q2_4" value="humorous"> humorous</label>
-                    <label><input type="radio" name="q2_4" value="honest_guarded"> honest but guarded</label>
-                    <label><input type="radio" name="q2_4" value="open_right_person"> open with the right person</label>
-                    <label><input type="radio" name="q2_4" value="quiet"> mostly quiet</label>
+                    <label><input type="checkbox" name="q2_4" value="direct"> direct</label>
+                    <label><input type="checkbox" name="q2_4" value="brief"> brief</label>
+                    <label><input type="checkbox" name="q2_4" value="humorous"> humorous</label>
+                    <label><input type="checkbox" name="q2_4" value="honest_guarded"> honest but guarded</label>
+                    <label><input type="checkbox" name="q2_4" value="open_right_person"> open with the right person</label>
+                    <label><input type="checkbox" name="q2_4" value="quiet"> mostly quiet</label>
                     <label class="other-option">
-                        <input type="radio" name="q2_4" value="other"> something else:
+                        <input type="checkbox" name="q2_4" value="other"> something else:
                         <input type="text" name="q2_4_other" placeholder="please specify...">
                     </label>
                 </div>
+            </div>
+
+            <div class="card question-card">
+                <h3>anything else about this section?</h3>
+                <p class="why-matters">share any other thoughts relevant to how you handle people and social stuff.</p>
+                <textarea name="section2_notes" rows="4" placeholder="optional - add any additional thoughts here..."></textarea>
             </div>
 
             <!-- SECTION 3 -->
@@ -218,16 +231,16 @@
                 <h3>1. what are you naturally good at?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> your strengths are the parts of you that can carry you forward.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q3_1" value="reading_people"> reading people</label>
-                    <label><input type="radio" name="q3_1" value="thinking_quickly"> thinking quickly</label>
-                    <label><input type="radio" name="q3_1" value="solving_problems"> solving problems</label>
-                    <label><input type="radio" name="q3_1" value="creative"> being creative</label>
-                    <label><input type="radio" name="q3_1" value="independent"> staying independent</label>
-                    <label><input type="radio" name="q3_1" value="surviving"> surviving tough situations</label>
-                    <label><input type="radio" name="q3_1" value="learning_fast"> learning things fast</label>
-                    <label><input type="radio" name="q3_1" value="loyal"> being loyal</label>
+                    <label><input type="checkbox" name="q3_1" value="reading_people"> reading people</label>
+                    <label><input type="checkbox" name="q3_1" value="thinking_quickly"> thinking quickly</label>
+                    <label><input type="checkbox" name="q3_1" value="solving_problems"> solving problems</label>
+                    <label><input type="checkbox" name="q3_1" value="creative"> being creative</label>
+                    <label><input type="checkbox" name="q3_1" value="independent"> staying independent</label>
+                    <label><input type="checkbox" name="q3_1" value="surviving"> surviving tough situations</label>
+                    <label><input type="checkbox" name="q3_1" value="learning_fast"> learning things fast</label>
+                    <label><input type="checkbox" name="q3_1" value="loyal"> being loyal</label>
                     <label class="other-option">
-                        <input type="radio" name="q3_1" value="other"> something else:
+                        <input type="checkbox" name="q3_1" value="other"> something else:
                         <input type="text" name="q3_1_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -237,14 +250,14 @@
                 <h3>2. what do people often get wrong about you?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> seeing the gap between how you are and how others see you protects your identity.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q3_2" value="angry"> they think you're angry when you're not</label>
-                    <label><input type="radio" name="q3_2" value="dont_care"> they think you don't care</label>
-                    <label><input type="radio" name="q3_2" value="honesty_personal"> they take your honesty personally</label>
-                    <label><input type="radio" name="q3_2" value="joking"> they think you're joking when you're serious</label>
-                    <label><input type="radio" name="q3_2" value="quietness"> they misread your quietness</label>
-                    <label><input type="radio" name="q3_2" value="underestimate"> they underestimate you</label>
+                    <label><input type="checkbox" name="q3_2" value="angry"> they think you're angry when you're not</label>
+                    <label><input type="checkbox" name="q3_2" value="dont_care"> they think you don't care</label>
+                    <label><input type="checkbox" name="q3_2" value="honesty_personal"> they take your honesty personally</label>
+                    <label><input type="checkbox" name="q3_2" value="joking"> they think you're joking when you're serious</label>
+                    <label><input type="checkbox" name="q3_2" value="quietness"> they misread your quietness</label>
+                    <label><input type="checkbox" name="q3_2" value="underestimate"> they underestimate you</label>
                     <label class="other-option">
-                        <input type="radio" name="q3_2" value="other"> something else:
+                        <input type="checkbox" name="q3_2" value="other"> something else:
                         <input type="text" name="q3_2_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -254,15 +267,15 @@
                 <h3>3. what parts of your personality do you actually like?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> noticing what you like in yourself strengthens your sense of who you are.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q3_3" value="humour"> your humour</label>
-                    <label><input type="radio" name="q3_3" value="honesty"> your honesty</label>
-                    <label><input type="radio" name="q3_3" value="independence"> your independence</label>
-                    <label><input type="radio" name="q3_3" value="strength"> your strength</label>
-                    <label><input type="radio" name="q3_3" value="mind"> your mind</label>
-                    <label><input type="radio" name="q3_3" value="creativity"> your creativity</label>
-                    <label><input type="radio" name="q3_3" value="loyalty"> your loyalty</label>
+                    <label><input type="checkbox" name="q3_3" value="humour"> your humour</label>
+                    <label><input type="checkbox" name="q3_3" value="honesty"> your honesty</label>
+                    <label><input type="checkbox" name="q3_3" value="independence"> your independence</label>
+                    <label><input type="checkbox" name="q3_3" value="strength"> your strength</label>
+                    <label><input type="checkbox" name="q3_3" value="mind"> your mind</label>
+                    <label><input type="checkbox" name="q3_3" value="creativity"> your creativity</label>
+                    <label><input type="checkbox" name="q3_3" value="loyalty"> your loyalty</label>
                     <label class="other-option">
-                        <input type="radio" name="q3_3" value="other"> something else:
+                        <input type="checkbox" name="q3_3" value="other"> something else:
                         <input type="text" name="q3_3_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -272,18 +285,24 @@
                 <h3>4. what situations bring out the best in you?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> the places where you shine are clues to the life that fits you.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q3_4" value="trusted"> being trusted</label>
-                    <label><input type="radio" name="q3_4" value="respected"> being respected</label>
-                    <label><input type="radio" name="q3_4" value="calm_people"> being around calm people</label>
-                    <label><input type="radio" name="q3_4" value="clear_expectations"> having clear expectations</label>
-                    <label><input type="radio" name="q3_4" value="practical"> working on something practical</label>
-                    <label><input type="radio" name="q3_4" value="creative"> doing something creative</label>
-                    <label><input type="radio" name="q3_4" value="outdoors"> being outdoors</label>
+                    <label><input type="checkbox" name="q3_4" value="trusted"> being trusted</label>
+                    <label><input type="checkbox" name="q3_4" value="respected"> being respected</label>
+                    <label><input type="checkbox" name="q3_4" value="calm_people"> being around calm people</label>
+                    <label><input type="checkbox" name="q3_4" value="clear_expectations"> having clear expectations</label>
+                    <label><input type="checkbox" name="q3_4" value="practical"> working on something practical</label>
+                    <label><input type="checkbox" name="q3_4" value="creative"> doing something creative</label>
+                    <label><input type="checkbox" name="q3_4" value="outdoors"> being outdoors</label>
                     <label class="other-option">
-                        <input type="radio" name="q3_4" value="other"> something else:
+                        <input type="checkbox" name="q3_4" value="other"> something else:
                         <input type="text" name="q3_4_other" placeholder="please specify...">
                     </label>
                 </div>
+            </div>
+
+            <div class="card question-card">
+                <h3>anything else about this section?</h3>
+                <p class="why-matters">share any other thoughts relevant to how you see yourself.</p>
+                <textarea name="section3_notes" rows="4" placeholder="optional - add any additional thoughts here..."></textarea>
             </div>
 
             <!-- SECTION 4 -->
@@ -293,12 +312,12 @@
                 <h3>1. how do you usually decide something important?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> knowing your decision style helps you trust yourself more.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q4_1" value="think_privately"> i think about it privately</label>
-                    <label><input type="radio" name="q4_1" value="instinct"> i go with my instinct</label>
-                    <label><input type="radio" name="q4_1" value="ask_trusted"> i ask one trusted person</label>
-                    <label><input type="radio" name="q4_1" value="try_adjust"> i try something and adjust</label>
+                    <label><input type="checkbox" name="q4_1" value="think_privately"> i think about it privately</label>
+                    <label><input type="checkbox" name="q4_1" value="instinct"> i go with my instinct</label>
+                    <label><input type="checkbox" name="q4_1" value="ask_trusted"> i ask one trusted person</label>
+                    <label><input type="checkbox" name="q4_1" value="try_adjust"> i try something and adjust</label>
                     <label class="other-option">
-                        <input type="radio" name="q4_1" value="other"> something else:
+                        <input type="checkbox" name="q4_1" value="other"> something else:
                         <input type="text" name="q4_1_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -308,14 +327,14 @@
                 <h3>2. what helps you focus when you choose to?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> knowing what supports your thinking lets you create conditions that work for you.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q4_2" value="music"> music</label>
-                    <label><input type="radio" name="q4_2" value="quiet"> quiet</label>
-                    <label><input type="radio" name="q4_2" value="deadline"> a deadline</label>
-                    <label><input type="radio" name="q4_2" value="alone"> being on your own</label>
-                    <label><input type="radio" name="q4_2" value="steps"> breaking things into steps</label>
-                    <label><input type="radio" name="q4_2" value="trusted_person"> working with someone you trust</label>
+                    <label><input type="checkbox" name="q4_2" value="music"> music</label>
+                    <label><input type="checkbox" name="q4_2" value="quiet"> quiet</label>
+                    <label><input type="checkbox" name="q4_2" value="deadline"> a deadline</label>
+                    <label><input type="checkbox" name="q4_2" value="alone"> being on your own</label>
+                    <label><input type="checkbox" name="q4_2" value="steps"> breaking things into steps</label>
+                    <label><input type="checkbox" name="q4_2" value="trusted_person"> working with someone you trust</label>
                     <label class="other-option">
-                        <input type="radio" name="q4_2" value="other"> something else:
+                        <input type="checkbox" name="q4_2" value="other"> something else:
                         <input type="text" name="q4_2_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -325,14 +344,14 @@
                 <h3>3. what environments help you think clearly?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> your mind works better in certain settings. knowing them helps you choose where to be.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q4_3" value="outdoors"> outdoors</label>
-                    <label><input type="radio" name="q4_3" value="room"> your room</label>
-                    <label><input type="radio" name="q4_3" value="tidy"> a tidy space</label>
-                    <label><input type="radio" name="q4_3" value="familiar"> a familiar place</label>
-                    <label><input type="radio" name="q4_3" value="calm"> somewhere calm</label>
-                    <label><input type="radio" name="q4_3" value="background_noise"> somewhere with background noise</label>
+                    <label><input type="checkbox" name="q4_3" value="outdoors"> outdoors</label>
+                    <label><input type="checkbox" name="q4_3" value="room"> your room</label>
+                    <label><input type="checkbox" name="q4_3" value="tidy"> a tidy space</label>
+                    <label><input type="checkbox" name="q4_3" value="familiar"> a familiar place</label>
+                    <label><input type="checkbox" name="q4_3" value="calm"> somewhere calm</label>
+                    <label><input type="checkbox" name="q4_3" value="background_noise"> somewhere with background noise</label>
                     <label class="other-option">
-                        <input type="radio" name="q4_3" value="other"> something else:
+                        <input type="checkbox" name="q4_3" value="other"> something else:
                         <input type="text" name="q4_3_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -342,15 +361,21 @@
                 <h3>4. when you want something in your life to change, how do you usually begin?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> your way of starting change is part of who you are.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q4_4" value="slowly"> slowly</label>
-                    <label><input type="radio" name="q4_4" value="suddenly"> suddenly</label>
-                    <label><input type="radio" name="q4_4" value="one_small_thing"> by changing one small thing</label>
-                    <label><input type="radio" name="q4_4" value="surroundings"> by changing your surroundings</label>
+                    <label><input type="checkbox" name="q4_4" value="slowly"> slowly</label>
+                    <label><input type="checkbox" name="q4_4" value="suddenly"> suddenly</label>
+                    <label><input type="checkbox" name="q4_4" value="one_small_thing"> by changing one small thing</label>
+                    <label><input type="checkbox" name="q4_4" value="surroundings"> by changing your surroundings</label>
                     <label class="other-option">
-                        <input type="radio" name="q4_4" value="other"> something else:
+                        <input type="checkbox" name="q4_4" value="other"> something else:
                         <input type="text" name="q4_4_other" placeholder="please specify...">
                     </label>
                 </div>
+            </div>
+
+            <div class="card question-card">
+                <h3>anything else about this section?</h3>
+                <p class="why-matters">share any other thoughts relevant to the way you think and make choices.</p>
+                <textarea name="section4_notes" rows="4" placeholder="optional - add any additional thoughts here..."></textarea>
             </div>
 
             <!-- SECTION 5 -->
@@ -360,15 +385,15 @@
                 <h3>1. what would you like more of in your daily life?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> what you want more of quietly shapes the direction your life moves in.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q5_1" value="peace"> peace</label>
-                    <label><input type="radio" name="q5_1" value="good_people"> good people</label>
-                    <label><input type="radio" name="q5_1" value="time_yourself"> time to yourself</label>
-                    <label><input type="radio" name="q5_1" value="freedom"> freedom</label>
-                    <label><input type="radio" name="q5_1" value="creativity"> creativity</label>
-                    <label><input type="radio" name="q5_1" value="stability"> stability</label>
-                    <label><input type="radio" name="q5_1" value="fun"> fun</label>
+                    <label><input type="checkbox" name="q5_1" value="peace"> peace</label>
+                    <label><input type="checkbox" name="q5_1" value="good_people"> good people</label>
+                    <label><input type="checkbox" name="q5_1" value="time_yourself"> time to yourself</label>
+                    <label><input type="checkbox" name="q5_1" value="freedom"> freedom</label>
+                    <label><input type="checkbox" name="q5_1" value="creativity"> creativity</label>
+                    <label><input type="checkbox" name="q5_1" value="stability"> stability</label>
+                    <label><input type="checkbox" name="q5_1" value="fun"> fun</label>
                     <label class="other-option">
-                        <input type="radio" name="q5_1" value="other"> something else:
+                        <input type="checkbox" name="q5_1" value="other"> something else:
                         <input type="text" name="q5_1_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -378,15 +403,15 @@
                 <h3>2. what would you like less of?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> being clear about what drains you helps protect your energy.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q5_2" value="drama"> drama</label>
-                    <label><input type="radio" name="q5_2" value="pressure"> pressure</label>
-                    <label><input type="radio" name="q5_2" value="expectations"> expectations</label>
-                    <label><input type="radio" name="q5_2" value="chaos"> chaos</label>
-                    <label><input type="radio" name="q5_2" value="conflict"> conflict</label>
-                    <label><input type="radio" name="q5_2" value="boredom"> boredom</label>
-                    <label><input type="radio" name="q5_2" value="noise"> noise</label>
+                    <label><input type="checkbox" name="q5_2" value="drama"> drama</label>
+                    <label><input type="checkbox" name="q5_2" value="pressure"> pressure</label>
+                    <label><input type="checkbox" name="q5_2" value="expectations"> expectations</label>
+                    <label><input type="checkbox" name="q5_2" value="chaos"> chaos</label>
+                    <label><input type="checkbox" name="q5_2" value="conflict"> conflict</label>
+                    <label><input type="checkbox" name="q5_2" value="boredom"> boredom</label>
+                    <label><input type="checkbox" name="q5_2" value="noise"> noise</label>
                     <label class="other-option">
-                        <input type="radio" name="q5_2" value="other"> something else:
+                        <input type="checkbox" name="q5_2" value="other"> something else:
                         <input type="text" name="q5_2_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -396,14 +421,14 @@
                 <h3>3. what's something you'd like to try, even once, with no pressure?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> trying things opens possibilities without forcing you into anything.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q5_3" value="hobby"> a hobby</label>
-                    <label><input type="radio" name="q5_3" value="class"> a class</label>
-                    <label><input type="radio" name="q5_3" value="job"> a job</label>
-                    <label><input type="radio" name="q5_3" value="trip"> a trip</label>
-                    <label><input type="radio" name="q5_3" value="creative"> something creative</label>
-                    <label><input type="radio" name="q5_3" value="physical"> something physical</label>
+                    <label><input type="checkbox" name="q5_3" value="hobby"> a hobby</label>
+                    <label><input type="checkbox" name="q5_3" value="class"> a class</label>
+                    <label><input type="checkbox" name="q5_3" value="job"> a job</label>
+                    <label><input type="checkbox" name="q5_3" value="trip"> a trip</label>
+                    <label><input type="checkbox" name="q5_3" value="creative"> something creative</label>
+                    <label><input type="checkbox" name="q5_3" value="physical"> something physical</label>
                     <label class="other-option">
-                        <input type="radio" name="q5_3" value="other"> something else:
+                        <input type="checkbox" name="q5_3" value="other"> something else:
                         <input type="text" name="q5_3_other" placeholder="please specify...">
                     </label>
                 </div>
@@ -413,17 +438,23 @@
                 <h3>4. what are you curious about, even if you're not ready to act on it?</h3>
                 <p class="why-matters"><strong>why this matters:</strong> curiosity is often the first sign of the future trying to reach you.</p>
                 <div class="choices">
-                    <label><input type="radio" name="q5_4" value="moving_out"> moving out</label>
-                    <label><input type="radio" name="q5_4" value="studying"> studying something</label>
-                    <label><input type="radio" name="q5_4" value="earning_money"> earning your own money</label>
-                    <label><input type="radio" name="q5_4" value="learning_skill"> learning a skill</label>
-                    <label><input type="radio" name="q5_4" value="building"> building something</label>
-                    <label><input type="radio" name="q5_4" value="meeting_people"> meeting new people</label>
+                    <label><input type="checkbox" name="q5_4" value="moving_out"> moving out</label>
+                    <label><input type="checkbox" name="q5_4" value="studying"> studying something</label>
+                    <label><input type="checkbox" name="q5_4" value="earning_money"> earning your own money</label>
+                    <label><input type="checkbox" name="q5_4" value="learning_skill"> learning a skill</label>
+                    <label><input type="checkbox" name="q5_4" value="building"> building something</label>
+                    <label><input type="checkbox" name="q5_4" value="meeting_people"> meeting new people</label>
                     <label class="other-option">
-                        <input type="radio" name="q5_4" value="other"> something else:
+                        <input type="checkbox" name="q5_4" value="other"> something else:
                         <input type="text" name="q5_4_other" placeholder="please specify...">
                     </label>
                 </div>
+            </div>
+
+            <div class="card question-card">
+                <h3>anything else about this section?</h3>
+                <p class="why-matters">share any other thoughts relevant to what you want more or less of in your life.</p>
+                <textarea name="section5_notes" rows="4" placeholder="optional - add any additional thoughts here..."></textarea>
             </div>
 
             <button type="submit" class="button">submit questionnaire</button>
@@ -449,8 +480,8 @@
             let answeredCount = 0;
 
             questionNames.forEach(name => {
-                const radios = document.querySelectorAll(`input[name="${name}"]`);
-                const isAnswered = Array.from(radios).some(radio => radio.checked);
+                const checkboxes = document.querySelectorAll(`input[type="checkbox"][name="${name}"]`);
+                const isAnswered = Array.from(checkboxes).some(checkbox => checkbox.checked);
                 if (isAnswered) answeredCount++;
             });
 
@@ -459,7 +490,7 @@
             document.getElementById('progressBar').style.width = percentage + '%';
         }
 
-        // Listen to all radio button changes
+        // Listen to all checkbox changes
         document.addEventListener('DOMContentLoaded', () => {
             const form = document.querySelector('form[name="jessica-questionnaire"]');
             form.addEventListener('change', updateProgress);
