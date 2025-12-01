@@ -420,5 +420,51 @@
     <div class="footer">
         <p>&copy; 2025 lichen protocol. all responses are private and will be handled with care.</p>
     </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-content">
+            <div class="progress-text">
+                <span id="progressCount">0</span> of 20
+            </div>
+            <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="progressBar"></div>
+            </div>
+            <div class="progress-label">questions answered</div>
+        </div>
+    </div>
+
+    <script>
+        // Track progress
+        const totalQuestions = 20;
+        const questionNames = [
+            'q1_1', 'q1_2', 'q1_3', 'q1_4', 'q1_5',
+            'q2_1', 'q2_2', 'q2_3', 'q2_4',
+            'q3_1', 'q3_2', 'q3_3', 'q3_4',
+            'q4_1', 'q4_2', 'q4_3', 'q4_4',
+            'q5_1', 'q5_2', 'q5_3', 'q5_4'
+        ];
+
+        function updateProgress() {
+            let answeredCount = 0;
+
+            questionNames.forEach(name => {
+                const radios = document.querySelectorAll(`input[name="${name}"]`);
+                const isAnswered = Array.from(radios).some(radio => radio.checked);
+                if (isAnswered) answeredCount++;
+            });
+
+            const percentage = (answeredCount / totalQuestions) * 100;
+            document.getElementById('progressCount').textContent = answeredCount;
+            document.getElementById('progressBar').style.width = percentage + '%';
+        }
+
+        // Listen to all radio button changes
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.querySelector('form[name="jessica-questionnaire"]');
+            form.addEventListener('change', updateProgress);
+            updateProgress(); // Initial check
+        });
+    </script>
 </body>
 </html>
