@@ -291,8 +291,7 @@ input::placeholder {
 .progress-container {
     position: fixed;
     right: 2rem;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 8rem;
     z-index: 1000;
 }
 
@@ -343,7 +342,7 @@ input::placeholder {
 }
 
 /* Hide progress bar on smaller screens */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .progress-container {
         display: none;
     }
